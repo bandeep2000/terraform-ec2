@@ -17,7 +17,7 @@ Before you begin, ensure you have the following:
    * creating EC2 instances
    * accessing the S3 bucket
    * Dynamodb for terraform lock
-4.    **S3 Bucket and Dynamodb**:  Ensure you have S3 bucket used for backend and dynamodb lock table created - Details are in backend.tf for the name used
+4.    **S3 Bucket and Dynamodb**:  Ensure you have created S3 bucket and dynamodb lock table used for backend  -  backend.tf have the details
 
 ## Getting Started
 
