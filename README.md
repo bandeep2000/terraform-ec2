@@ -10,6 +10,9 @@ Before you begin, ensure you have the following:
 
 2. **AWS Credentials**: Configure your AWS credentialsby setting environment variables.
    ```
+   export AWS_ACCESS_KEY_ID="<your AWS_ACCESS_KEY_ID "
+   export AWS_SECRET_ACCESS_KEY= "< your AWS_SECRET_ACCESS_KEY>"
+   ```
    Ensure that your credentials have appropriate permissions for:
    * creating EC2 instances
    * accessing the S3 bucket
