@@ -1,6 +1,5 @@
 variable "image_id" {
   type        = string
-  //default     = "ami-0bb4c991fa89d4b9b"
   description = "The id of the machine image (AMI) to use for the server."
 
   validation {
@@ -9,22 +8,27 @@ variable "image_id" {
   }
 }
 
-
 variable "instance_type" {
     type        = string
-  //default     = "t2.micro"
 
 }
 
 variable "key_name" {
   type        = string
-  //default     = "ban11"
-
+  
 }
 
 
 variable "tag_name" {
  type        = string
-  //default     = "HelloWorld"
 
 }
+
+variable "region" {
+ type        = string
+
+}
+
+
+
+
