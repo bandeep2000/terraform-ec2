@@ -29,3 +29,8 @@ Follow these steps to deploy the EC2 instance:
    https://github.com/bandeep2000/terraform-ec2.git
    cd terraform-ec2
    ```
+2. Run terraform to deploy ec2 instance   
+   terraform init
+   terraform plan
+   terraform apply 
+   
