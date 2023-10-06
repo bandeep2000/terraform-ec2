@@ -14,12 +14,12 @@ Before you begin, ensure you have the following:
    export AWS_SECRET_ACCESS_KEY= "< your AWS_SECRET_ACCESS_KEY>"
    ```
    Ensure that your credentials have appropriate permissions for:
-   * creating EC2 instances
-   * accessing the S3 bucket
-   * Dynamodb for terraform lock
+   * Creating EC2 instances
+   * Accessing the S3 bucket
+   * Aceess for Dynamodb tables for terraform lock
 4.    **Update backend.tf with S3 Bucket and Dynamodb**:  Update backend.tf with your S3 bucket and dynamodb details.
     Note: This project assumes you have  created S3 bucket and dynamo db table
-5. **Update terraform.tfvars file with your key name**: Update terraform.tfvars file with you
+5. **Update terraform.tfvars file with your key name**: Update terraform.tfvars file with your ssh key pair. Details: [Create ssh key pair] (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html)
 
 ## Getting Started
 
