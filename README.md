@@ -18,7 +18,8 @@ Before you begin, ensure you have the following:
    * accessing the S3 bucket
    * Dynamodb for terraform lock
 4.    **Update backend.tf with S3 Bucket and Dynamodb**:  Update backend.tf with your S3 bucket and dynamodb details.
-    Note: This project assumes you have  created S3 bucket and dynamo db table 
+    Note: This project assumes you have  created S3 bucket and dynamo db table
+5. **Update terraform.tfvars file with your key name**: Update terraform.tfvars file with you
 
 ## Getting Started
 
@@ -30,6 +31,8 @@ Follow these steps to deploy the EC2 instance:
    git clone https://github.com/bandeep2000/terraform-ec2.git
    cd terraform-ec2
    ```
+
+3. Update backend.tf as
 2. Run terraform to deploy ec2 instance
    ``` 
    terraform init 
