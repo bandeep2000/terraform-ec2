@@ -19,7 +19,7 @@ Before you begin, ensure you have the following:
    * Aceess for Dynamodb tables for terraform lock
 4.    **Update backend.tf with S3 Bucket and Dynamodb**:  Update backend.tf with your S3 bucket and dynamodb details.
     Note: This project assumes you have  created S3 bucket and dynamo db table
-5. **Update terraform.tfvars file with your key name**: Update terraform.tfvars file with your ssh key pair. Details: [Create ssh key pair] (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html)
+5. **Update terraform.tfvars file with your key name**: Update terraform.tfvars file with your ssh key pair. Details: [Create ssh key pair](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html)
 
 ## Getting Started
 
