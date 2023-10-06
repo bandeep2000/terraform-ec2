@@ -32,14 +32,14 @@ Follow these steps to deploy the EC2 instance:
    cd terraform-ec2
    ```
 
-3. Update backend.tf as
-2. Run terraform to deploy ec2 instance
+3. Ensure you have followed the steps in Prerequisites section above and updated relevant variables.
+4. Run terraform to deploy ec2 instance
    ``` 
    terraform init 
    terraform plan
    terraform apply
    ```
-3. To destroy  the instance run
+5. To destroy  the instance run
    ```
    terraform destroy
    ```
