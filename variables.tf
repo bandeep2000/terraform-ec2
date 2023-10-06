@@ -9,27 +9,27 @@ variable "image_id" {
 }
 
 variable "instance_type" {
-    type        = string
-    description = "AWS instance type"
+  type        = string
+  description = "AWS instance type"
 
 }
 
 variable "key_name" {
   type        = string
   description = "Key name used to ssh"
-  
+
 }
 
 
 variable "tag_name" {
- type        = string
- description = "Tag name for your AWS instance to identify the instance"
+  type        = string
+  description = "Tag name for your AWS instance to identify the instance"
 
 }
 
 variable "region" {
- type        = string
- description = "Region name for the AWS instance "
+  type        = string
+  description = "Region name for the AWS instance "
 
 }
 

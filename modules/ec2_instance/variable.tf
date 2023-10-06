@@ -12,14 +12,14 @@ variable "image_id" {
 variable "instance_type" {
   type        = string
   description = "AWS EC2 instance type"
- 
+
 
 }
 
 variable "key_name" {
   type        = string
   description = "Key name used to ssh"
- 
+
 
 }
 
@@ -27,7 +27,7 @@ variable "key_name" {
 variable "tag_name" {
   type        = string
   description = "Tag name for your AWS instance to identify the instance"
-  
+
 
 }
 
