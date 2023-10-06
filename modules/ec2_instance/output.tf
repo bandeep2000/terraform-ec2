@@ -1,3 +1,4 @@
+// output to display after instance is created
 output "public_ip" {
   value = aws_instance.m1.public_ip
 }

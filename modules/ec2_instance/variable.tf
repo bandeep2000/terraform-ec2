@@ -1,6 +1,5 @@
 variable "image_id" {
   type        = string
-  //default     = "ami-0bb4c991fa89d4b9b"
   description = "The id of the machine image (AMI) to use for the server."
 
   validation {
@@ -12,20 +11,23 @@ variable "image_id" {
 
 variable "instance_type" {
   type        = string
-  //default     = "t2.micro"
+  description = "AWS EC2 instance type"
+ 
 
 }
 
 variable "key_name" {
   type        = string
-  //default     = "ban11"
+  description = "Key name used to ssh"
+ 
 
 }
 
 
 variable "tag_name" {
   type        = string
-  //default     = "HelloWorld"
+  description = "Tag name for your AWS instance to identify the instance"
+  
 
 }
 
