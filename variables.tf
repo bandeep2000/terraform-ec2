@@ -20,7 +20,6 @@ variable "key_name" {
 
 }
 
-
 variable "tag_name" {
   type        = string
   description = "Tag name for your AWS instance to identify the instance"
